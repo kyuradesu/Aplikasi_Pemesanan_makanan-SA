@@ -1,0 +1,74 @@
+<!-- res/layout/activity_daftar_pesanan.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearPesanan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgpembayaran"
+    tools:context=".DaftarPesananActivity">
+
+    <ListView
+        android:id="@+id/listViewPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="504dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="90dp"
+            android:layout_height="33dp"
+            android:layout_weight="1"
+            android:text="Total Harga :"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtTotBayar"
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:paddingLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/radioGopay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GOPAY"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/radioShopee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="ShopeePay"
+            android:textColor="@color/black"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBayarSekarang"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bayar Sekarang" />
+
+</LinearLayout>

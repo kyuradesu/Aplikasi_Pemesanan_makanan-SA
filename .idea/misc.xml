@@ -1,0 +1,19 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kuliah/latip/RiwayatPesanan/app/src/main/res/layout/activity_daftar_pesanan.xml" value="0.264" />
+        <entry key="..\:/Kuliah/latip/RiwayatPesanan/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Kuliah/latip/RiwayatPesanan/app/src/main/res/layout/activity_riwayat.xml" value="0.20652173913043478" />
+        <entry key="..\:/Kuliah/latip/RiwayatPesanan/app/src/main/res/layout/activity_sukses_pesan.xml" value="0.2740036231884058" />
+        <entry key="..\:/Kuliah/latip/RiwayatPesanan/app/src/main/res/layout/item_riwayat_card.xml" value="0.20652173913043478" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
